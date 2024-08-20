@@ -1,0 +1,93 @@
+/* Base styles for the entire app */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f0f2f5; /* Light gray background */
+    color: #333; /* Dark gray text color */
+  }
+  
+  #root {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+  }
+  
+  /* Basic styling for headers */
+  h1, h2, h3, h4, h5, h6 {
+    color: #007bff; /* Bootstrap primary blue */
+  }
+  
+  /* Links */
+  a {
+    color: #007bff;
+    text-decoration: none;
+  }
+  
+  a:hover {
+    text-decoration: underline;
+  }
+  
+  /* Buttons */
+  button {
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  button.primary {
+    background-color: #007bff;
+    color: white;
+  }
+  
+  button.primary:hover {
+    background-color: #0056b3;
+  }
+  
+  button.secondary {
+    background-color: #6c757d;
+    color: white;
+  }
+  
+  button.secondary:hover {
+    background-color: #5a6268;
+  }
+  
+  /* Form elements */
+  input, textarea {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+  }
+  
+  input:focus, textarea:focus {
+    border-color: #007bff;
+    outline: none;
+  }
+  
+  /* Cards */
+  .card {
+    background: white;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    padding: 20px;
+    margin: 10px;
+  }
+  
+  /* Containers */
+  .container {
+    width: 80%;
+    margin: 0 auto;
+  }
+  
+  /* Header */
+  .header {
+    background-color: #007bff;
+    color: white;
+    padding: 15px;
+    text-align: center;
+  }
+  
